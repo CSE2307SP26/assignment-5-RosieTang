@@ -6,6 +6,10 @@ import edu.princeton.cs.introcs.StdDraw;
 public class Game {
 
 	public static void main(String[] args) {
+		playGame();
+	}
+
+	public static void playGame(){
 		double maxSpeed = 0.01;
 		double minSpeed = 0.005;
 		double radius = 0.025;
@@ -118,6 +122,7 @@ public class Game {
 			StdDraw.pause(10);
 			
 		}
+
 	}
 }
 
